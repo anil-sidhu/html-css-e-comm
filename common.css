@@ -15,6 +15,9 @@ body {
 .wid-50 {
   width: 50%;
 }
+.next-row{
+  clear: both;
+}
 .common-btn {
   height: 35px;
   border: 1px solid #ddd;

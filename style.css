@@ -5,6 +5,7 @@
 }
 .header {
   margin-top: 25px;
+  min-height:60px
 }
 .logo h1 span:first-of-type {
   padding: 0px 15px;
@@ -38,4 +39,36 @@
 }
 .selected-product {
   text-align: right;
+}
+
+.full-banner-warapper {
+  border-top: 1px solid #ddd;
+}
+.list-header {
+  height: 65px;
+  background-color: #d19c97;
+}
+.list-header h4 {
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-weight: 500;
+}
+.list-header span {
+  float: right;
+  padding: 28px;
+}
+.category-list ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border: 1px solid #ddd;
+}
+.category-list ul li{
+  border-bottom: 1px solid #ddd;
+  padding: 10px 40px;
+}
+.category-list ul li a{
+    color: #333;
+    text-decoration: none;
 }
