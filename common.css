@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 .wrapper {
   margin-left: 5%;
@@ -15,16 +16,22 @@ body {
   width: 50%;
 }
 .common-btn {
-  height: 40px;
+  height: 35px;
   border: 1px solid #ddd;
   border-radius: 0;
   background-color: #fff;
   min-width: 50px;
   text-align: center;
   color: #d19c97;
+  margin-right: 10px;
 }
 
 .common-btn span {
   font-size: 16px;
   font-weight: 800;
+}
+
+.common-btn span i{
+  padding-right: 5px;
+  padding-left: 5px;
 }
