@@ -15,6 +15,9 @@ body {
 .wid-50 {
   width: 50%;
 }
+.wid-75{
+  width: 75%;
+}
 .next-row{
   clear: both;
 }
