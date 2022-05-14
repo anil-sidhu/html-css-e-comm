@@ -5,7 +5,7 @@
 }
 .header {
   margin-top: 25px;
-  min-height:60px
+  min-height: 60px;
 }
 .logo h1 span:first-of-type {
   padding: 0px 15px;
@@ -24,7 +24,7 @@
   border-right: none;
 }
 
-.search-product input:focus{
+.search-product input:focus {
   outline: none;
 }
 
@@ -64,62 +64,62 @@
   list-style-type: none;
   border: 1px solid #ddd;
 }
-.category-list ul li{
+.category-list ul li {
   border-bottom: 1px solid #ddd;
   padding: 10px 40px;
 }
-.category-list ul li a{
-    color: #333;
-    text-decoration: none;
+.category-list ul li a {
+  color: #333;
+  text-decoration: none;
 }
 /*  */
 .shop-menu {
   display: flex;
 }
-.left-menu-list{
+.left-menu-list {
   width: 70%;
 }
-.right-menu-list{
+.right-menu-list {
   width: 30%;
   direction: rtl;
 }
-.shop-menu ul{
+.shop-menu ul {
   display: flex;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
-.shop-menu ul li{
+.shop-menu ul li {
   min-width: 75px;
-    padding: 20px;
+  padding: 20px;
 }
-.shop-menu ul li a{
+.shop-menu ul li a {
   color: #333;
   text-decoration: none;
 }
-.shop-menu ul li a:hover{
+.shop-menu ul li a:hover {
   color: #d19c97;
 }
-.shop-menu ul.dropdown{
+.shop-menu ul.dropdown {
   display: none;
   border: 1px solid #ddd;
-    position: absolute;
-    box-shadow: #ddd 1px 1px 4px;
+  position: absolute;
+  box-shadow: #ddd 1px 1px 4px;
 }
-.dropdown-head:hover ul.dropdown{
+.dropdown-head:hover ul.dropdown {
   display: block;
 }
-.banner{
-    position: relative;
-    height: 400px;
-    float: left;
-    width: 100%;
-    margin-left: 15px;
+.banner {
+  position: relative;
+  height: 400px;
+  float: left;
+  width: 100%;
+  margin-left: 15px;
 }
 .banner img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .banner .banner-text {
   position: absolute;
@@ -148,4 +148,26 @@
   background-color: #fff;
   color: #000;
   padding: 10px 15px;
+}
+/*  */
+
+.features-point {
+  border: 1px solid #ddd;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 25px;
+}
+
+.features-point .icon-text-wrap {
+  padding: 30px;
+  display: flex;
+}
+.icon-text-wrap i {
+  font-size: 30px;
+  color: #d19c97;
+}
+.icon-text-wrap span {
+  font-size: 20px;
+  padding-left: 20px;
+  font-weight: 600;
 }
