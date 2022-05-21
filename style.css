@@ -171,3 +171,21 @@
   padding-left: 20px;
   font-weight: 600;
 }
+.category-item{
+  border: 1px solid #ccc;
+  padding: 30px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.category-item .product-count{
+  text-align: right;
+    margin-bottom: 10px;
+}
+.category-item .category-img img {
+  width: 100%;
+}
+.category-item .category-type h5{
+  margin-bottom: 0;
+    font-size: 25px;
+}
