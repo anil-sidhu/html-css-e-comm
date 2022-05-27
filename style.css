@@ -310,24 +310,52 @@
 
 .footer {
   background-color: #edf1ff;
-  margin-bottom: 100px;
   margin-left: -5.5%;
   margin-right: -5.5%;
   padding-left: 5.5%;
   padding-top: 50px;
   padding-bottom: 50px;
+  display: flex;
 }
-.footer .footer-desc{
+.footer .footer-desc {
   text-align: justify;
   line-height: 1.5;
   margin-bottom: 25px;
 }
-.footer .contact-list{
+.footer .contact-list {
   padding: 0;
   list-style-type: none;
   line-height: 2.5;
 }
-.footer .contact-list .icon{
+.footer .contact-list .icon {
   color: #d19c97;
   width: 25px;
+}
+.quick-links ul {
+  list-style-type: none;
+  padding: 0;
+  line-height: 2;
+}
+.quick-links ul a {
+  text-decoration: none;
+  color: #333;
+}
+.quick-links ul a i {
+  padding-right: 5px;
+}
+
+.footer .footer-input {
+  border: none;
+  width: 80%;
+  height: 50px;
+  margin-bottom: 25px;
+  font-size: 18px;
+  padding-left: 15px;
+}
+.footer .footer-button {
+  border: 0;
+  background-color: #d19c97;
+  padding: 15px;
+  width: 80%;
+  font-size: 18px;
 }
