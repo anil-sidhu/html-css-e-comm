@@ -307,3 +307,27 @@
   padding: 13px 30px;
   font-size: 16px;
 }
+
+.footer {
+  background-color: #edf1ff;
+  margin-bottom: 100px;
+  margin-left: -5.5%;
+  margin-right: -5.5%;
+  padding-left: 5.5%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer .footer-desc{
+  text-align: justify;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+.footer .contact-list{
+  padding: 0;
+  list-style-type: none;
+  line-height: 2.5;
+}
+.footer .contact-list .icon{
+  color: #d19c97;
+  width: 25px;
+}
