@@ -314,7 +314,7 @@
   margin-right: -5.5%;
   padding-left: 5.5%;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   display: flex;
 }
 .footer .footer-desc {
@@ -358,4 +358,21 @@
   padding: 15px;
   width: 80%;
   font-size: 18px;
+}
+.vender-list {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 100px;
+}
+.vender-list img {
+  border: 1px solid #ddd;
+}
+.copy-right {
+  background-color: #edf1ff;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-between;
 }
