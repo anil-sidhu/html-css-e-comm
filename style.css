@@ -377,6 +377,21 @@
   justify-content: space-between;
 }
 
+/* shop file style */
+.shop-header {
+  background-color: #edf1ff;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
+.shop-header h3 {
+  color: #d19c97;
+  font-weight: 400;
+}
+.shop-header h1{
+  text-transform: uppercase;
+}
 @media only screen and (max-width: 992px) {
   .search-product {
     display: flex;
