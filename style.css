@@ -389,8 +389,18 @@
   color: #d19c97;
   font-weight: 400;
 }
-.shop-header h1{
+.shop-header h1 {
   text-transform: uppercase;
+}
+.sort-options {
+  text-align: right;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+.sort-options select {
+  border: 1px solid #ddd;
+  height: 35px;
+  width: 100px;
 }
 @media only screen and (max-width: 992px) {
   .search-product {
